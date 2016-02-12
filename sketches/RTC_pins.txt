@@ -1,0 +1,16 @@
+ The backup battery makes sure that the time and date are kept accurate even if your Arduino is powered off.
+
+- DS1302 timing IC
+- This real time clock has the ability of calculating prior to the 2100 second, minute, hour, day, week, month, year, and the ability to adjust a leap year
+- Wide working voltage: 2.0~5.5 V
+- When The working voltage is 2.0V, the current is less than 300nA
+- Read/write clock or RAM data have two transmission modes: Single-byte / many bytes group
+- Simple 3 line interface. Easy to install
+
+Pin out
+
+VCC -> Arduino +3.3V
+GND -> Arduino Gnd
+CLK ->  (SCLK_PIN)
+DAT -> (IO_PIN)
+RST -> (CE_PIN)

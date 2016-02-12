@@ -1,0 +1,3 @@
+SCLK_PIN - 28
+IO_PIN - 26
+CE_PIN - 24
